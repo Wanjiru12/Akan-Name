@@ -33,3 +33,34 @@ function dayOfWeek() {
 
   return Math.floor(day);
 }
+
+function displayDetails() {
+  var gender = document.querySelector('input[name="gridRadios"]:checked');
+  if (gender === null) {
+    alert("Please choose your gender");
+  } else {
+    gender = gender.value;
+  }
+
+  var d = dayOfWeek();
+
+  var femaleName = female[d].name;
+  var maleName = male[d].name;
+  var dayName = male[d].day;
+
+  if (gender === "Female") {
+    document.querySelector("#akanName").innerHTML =
+      "Your Akan Name is : " + femaleName;
+    document.querySelector("#day").innerHTML =
+      "You were born on a : " + dayName;
+  } else if (gender === "Male") {
+    document.querySelector("#akanName").innerHTML =
+      "Your Akan Name is : " + maleName;
+    document.querySelector("#day").innerHTML =
+      "You were born on a : " + dayName;
+  } else {
+    alert("Invalid Inputs");
+  }
+
+  document.getElementById("frm").reset();
+}
