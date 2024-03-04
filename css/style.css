@@ -1,22 +1,25 @@
-html,body{
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-body{
-    background-image: url("../images/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgb(179, 225, 234);
 }
-#btn{
-    background-color: #338C9D;
-    border: none;
+#btn {
+  background-color: #338c9d;
+  border: none;
 }
-.form-check-input:checked{
-    background-color: #338C9D;
-    border: none;
+.form-check-input:checked {
+  background-color: #338c9d;
+  border: none;
 }
-#akanName, #day{
-    color: aliceblue;
-    font-weight: bold;
-    font-size: 36px;
+#akanName,
+#day {
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 36px;
 }
