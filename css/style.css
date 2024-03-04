@@ -7,7 +7,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgb(179, 225, 234);
 }
 #btn {
   background-color: #338c9d;
@@ -19,7 +18,7 @@ body {
 }
 #akanName,
 #day {
-  color: aliceblue;
+  color: #338c9d;
   font-weight: bold;
   font-size: 36px;
 }
