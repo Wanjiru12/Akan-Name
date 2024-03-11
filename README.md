@@ -22,7 +22,8 @@ There are no known bugs.
 
 1. Enter correct date of birth
 2. Enter wrong date of birth where month >13
-3. Enter wrong date of birth wher day <0
+3. Enter wrong date of birth where day <0
+4. Enter wrong date of birth where day >31
 
 ## Technologies Used
 
