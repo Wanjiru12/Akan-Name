@@ -21,6 +21,7 @@ There are no known bugs.
 ## TestScenarios
 
 1. Enter correct date of birth
+2. Enter wrong date of birth where month >13
 
 ## Technologies Used
 
