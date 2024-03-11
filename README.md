@@ -20,6 +20,8 @@ There are no known bugs.
 
 ## TestScenarios
 
+1. Enter correct date of birth
+
 ## Technologies Used
 
 - HTML
