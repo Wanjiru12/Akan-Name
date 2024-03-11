@@ -21,9 +21,10 @@ There are no known bugs.
 ## TestScenarios
 
 1. Enter correct date of birth
-2. Enter wrong date of birth where month >13
+2. Enter wrong date of birth where month >31
 3. Enter wrong date of birth where day <0
 4. Enter wrong date of birth where day >31
+5. Enter wrong date of birth where month <0
 
 ## Technologies Used
 
